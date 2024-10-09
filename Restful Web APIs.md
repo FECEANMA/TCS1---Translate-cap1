@@ -4,7 +4,7 @@
 
 ## Métodos estandarizados
 
-Ambas solicitudes HTTP de Alice utilizaron GET como su método HTTP. Pero hay un poco de HTML 
+Ambas solicitudes HTTP de Alice utilizaron GET como su método HTTP. Pero hay un poco de HTML***
 en la última representación que activará una solicitud HTTP POST si Alice hace clic 
 en el botón publicar:
 
