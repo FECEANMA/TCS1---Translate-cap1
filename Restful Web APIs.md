@@ -5,12 +5,14 @@ Figura 1-5. La vista del navegador de You Type It…
 Métodos estandarizados
 
 Ambas solicitudes HTTP de Alice utilizaron GET como su método HTTP. Pero hay un poco de HTML en la última representación que activará una solicitud HTTP POST si Alice hace clic en el botón publicar:
+```
 
 <form action="http://youtypeitwepostit.com/messages" method="post">
     <input type="text" name="message" value="" required="true"
         maxlength="6"/>
     <input type="submit" />
  </form>
+```
 
 El estándar HTTP (RFC 2616) define ocho métodos que un cliente puede aplicar a un recurso.
 En este libro, me centraré en cinco de ellos: GET, HEAD, POST, PUT y DELETE. En el Capítulo 3, cubriré estos métodos en detalle, junto con un método de extensión, PATCH, diseñado específicamente para su uso en APIs web. En este momento, lo importante a tener en cuenta es que hay un pequeño número de métodos estándar.
