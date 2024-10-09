@@ -1,4 +1,4 @@
-![La vista del navegador de You Type It…]()
+<img src="./img/Figura 1-5. La vista del navegador de You Type It….png"/>
 
 Figura 1-5. La vista del navegador de You Type It…
 
